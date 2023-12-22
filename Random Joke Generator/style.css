@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  background-color: rgb(255, 208, 0);
+}
+
+.wrapper {
+  width: 80vmin; /* vmin is the smaller of vh or vw*/
+
+  /*Visuals*/
+  background-color: rgb(43, 43, 43);
+  border-radius: 10px;
+  /*offset x, offset y, blur radius*/
+  box-shadow: 20px 20px 40px rgba(97, 63, 0, 0.4);
+
+  padding: 50px 40px; /*Padding inside wrapper for the text*/
+
+  /*Centers the item*/
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+span {
+  /*Need both to center the emoji face*/
+  display: block; /*starts on new line takes the whole width*/
+  text-align: center; /*centers the text*/
+
+  font-size: 100px;
+}
+
+#joke {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+
+  text-align: center;
+  word-wrap: break-word;
+  line-height: 35px;
+  margin: 30px 0; /*top and bottom margin*/
+}
+
+#btn {
+  display: block;
+  background-color: rgb(255, 208, 0);
+  border: none;
+  padding: 5px;
+  font-size: 18px;
+  color: #171717;
+  font-weight: 600;
+  padding: 12px 25px;
+  margin: 0 auto;
+  border-radius: 5px;
+  cursor: pointer;
+}
