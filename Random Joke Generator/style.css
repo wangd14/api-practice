@@ -59,3 +59,64 @@ span {
   border-radius: 5px;
   cursor: pointer;
 }
+
+#joke-info-btn {
+  background-color: rgb(43, 43, 43);
+  display: block;
+  border: none;
+  font-size: 18px;
+  color: #d7d7d7;
+  font-weight: 600;
+  margin: 0 auto;
+  margin-top: 20px;
+  cursor: pointer;
+  max-width: fit-content;
+}
+
+#close {
+  display: none;
+  background-color: #656565;
+  border: none;
+  cursor: pointer;
+
+  /*positioning*/
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+#joke-info-title {
+  display: none;
+  font-size: 25px;
+  font-weight: 600;
+
+  color: rgb(203, 203, 203);
+
+  text-align: center;
+  word-wrap: break-word;
+  line-height: 35px;
+}
+
+#joke-info {
+  display: none;
+  font-size: 16px;
+  font-weight: 500;
+
+  text-align: center;
+  word-wrap: break-word;
+  line-height: 35px;
+}
+
+#popup {
+  display: none;
+  width: 60vmin;
+  border-radius: 10px;
+  background-color: #656565;
+
+  padding: 40px 30px; /*Padding inside wrapper for the text*/
+
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
